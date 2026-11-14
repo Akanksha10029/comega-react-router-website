@@ -1,0 +1,145 @@
+/* Main Footer */
+
+.footer {
+    width: 100%;
+    background-color: #111827;
+    color: #f1f5f9;
+    border-top: 1px solid #263244;
+    padding: 55px 7% 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Footer Container */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 45px;
+}
+
+/* Brand */
+
+.footer-brand {
+    max-width: 300px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.footer-logo-icon {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
+.footer-logo h2 span {
+    color: #818cf8;
+}
+
+.footer-brand p {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Footer Sections */
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #f1f5f9;
+}
+
+.footer-section a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #818cf8;
+    transform: translateX(4px);
+}
+
+/* Bottom Footer */
+
+.footer-bottom {
+    border-top: 1px solid #263244;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 22px;
+    gap: 15px;
+}
+
+.footer-bottom p {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.footer-bottom span {
+    color: #ef4444;
+}
+
+
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .footer {
+        padding: 40px 6% 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 20px;
+    }
+
+    .footer-brand {
+        grid-column: span 2;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
