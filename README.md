@@ -1,5 +1,3 @@
-Link: 
-
 # CoMega — React Router Website
 
 A responsive, multi-page business website built using **React, Vite, and React Router DOM**. This project was created as a hands-on learning experience to understand client-side routing, reusable components, and multi-page website development in React.
