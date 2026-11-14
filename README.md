@@ -1,12 +1,58 @@
-# React + Vite
+Link: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# CoMega — React Router Website
 
-Currently, two official plugins are available:
+A responsive multi-page business website built with React, Vite, and React Router. This project is also a practice project for learning client-side routing and building reusable page components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pages
 
-## Expanding the ESLint configuration
+- Home
+- About
+- Services
+- Contact
+- Custom 404 page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- React
+- React Router DOM
+- Vite
+- CSS
+
+## Getting Started
+
+You’ll need npm installed.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/comega-react-router-website.git
+   ```
+
+2. Move into the project folder:
+
+   ```bash
+   cd comega-react-router-website
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   Open the local URL shown in your terminal.
+
+## Note
+
+The contact form is currently a front-end demo. It displays a confirmation message but does not send or store submissions.
+
+
+This project was created for learning and practice.
